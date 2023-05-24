@@ -1,0 +1,110 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/body.jpg');
+    height: 944px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    display: inline-block;
+    border: white;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.logo img {
+    width: 57px;
+    filter: invert(100%);
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+.logo div {
+    text-align: center;
+    font-size: 17px;
+    line-height: 5px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    display: inline-block;
+}
+
+.menu {
+
+    display: block;
+    width: 44%;
+    margin: 20px auto;
+}
+
+
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(48, 45, 45);
+    border-radius: 10px;
+    padding: 4px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(40, 39, 39);
+}
+
+.container {
+   background-color: bisque;
+    border: 2px solid black;
+    margin: 106px 80px;
+    display: block;
+    width: 37%;
+    padding: 65px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: black;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    width: 23%;
+}
+
+.fitness_form input {
+    text-align: center;
+    display: block;
+    width: 434px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
